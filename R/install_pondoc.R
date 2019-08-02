@@ -1,4 +1,8 @@
 install_pandoc <- function() {
+
+  ## Source from link below
+  # https://github.com/rstudio/rstudio/issues/4072#issuecomment-473406177
+
   # Download pandoc 2.7.1 built with ghc-8.6.4, and instruct
   # RStudio + rmarkdown to use it.
 
